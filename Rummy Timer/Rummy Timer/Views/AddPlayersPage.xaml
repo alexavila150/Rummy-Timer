@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Rummy_Timer.Views.AddPlayersPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <Entry Placeholder="Player 1" />
+            <Entry Placeholder="Player 2" />
+            <Entry Placeholder="Player 3" />
+            <Entry Placeholder="Player 4" />
+            <Entry Placeholder="Player 5" />
+            <Entry Placeholder="Player 6" />
+            <Button Text="Start"
+                VerticalOptions="CenterAndExpand"
+                HorizontalOptions="Center"
+                Clicked="OnStart" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
